@@ -1,0 +1,54 @@
+.Sidebar{
+    height: initial;
+    background-color: #0D0C33;
+    width: 19%;
+}
+/*@media screen and (min-width: 1023px) and (max-width: 1400px){
+    .Sidebar{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .Sidebar{
+        width: 30%;
+    }
+}*/
+.side{
+    padding-top: 15%;
+}
+.side img{
+    position: absolute;
+}
+#dashnav{
+    padding-top: 35%;
+}
+#links{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#links img{
+    width: 20px;
+    height: 16px;
+}
+#links a{
+    height: 60px;
+    cursor: default;
+    display: flex;
+    padding-left: 24px;
+    line-height: auto;
+    text-decoration: none;
+}
+#dashnav b{
+    font-size: 12px;
+    color: white;
+    font-family: inter;
+    padding-left: 50px;
+    text-shadow: none;
+    text-decoration: none;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Sidebar{
+        width: 20%;
+    }
+}

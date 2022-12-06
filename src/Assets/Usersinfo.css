@@ -1,0 +1,114 @@
+.Usersinfo{
+    background-color: #F5F5FF;
+    display: flex;
+    width: 100%;
+}
+.Usersinfomain{
+    width: 81%;
+    height: 850px;
+}
+#inforow1{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    width: -webkit-fill-available;
+    background-color: white;
+    height: max-content;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Gotham;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#inforow1 .col-5{
+    display: flex;
+    width: 45%;
+}
+#inforow1 .col-5, .col-3, #lastcoll{
+    padding: 20px;
+}
+#inforow1 .col-3{
+    width: 20%;
+}
+#inforow1 #lastcoll{
+    width: 35%;
+}
+#firstcoll{
+    width: 60%;
+}
+#inforow1 .col-5, .col-3 {
+    border-right: 2px solid;
+}
+#inforow1 .row{
+    display: flex;
+}
+#inforow1 .col-3 .row{
+    display: flex;
+}
+#imgcontr{
+    width: 40%;
+}
+.col-3 .row {
+    margin: unset;
+}
+#maindata{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    font-family: Gotham;
+}
+#maindata h2{
+    padding-left: 1.5%;
+    color: #0D0C33;
+    font-weight: normal;
+}
+.usertransroww{
+    background-color: white;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    width: -webkit-fill-available;
+    height: max-content;
+    border-radius: 10px;
+    display: grid;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: inter;
+}
+.usertransroww .row{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.usertransroww #Utranstitle{
+    padding-right: 15%;
+    font-weight: bold;
+}
+.usertransroww #Utransdata{
+    padding-right: 15%;
+}
+#lastrow{
+    border-bottom: 0px;
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Usersinfomain{
+        width: 80%;
+    }
+    .usertransroww #Utranstitle{
+        padding-right: 13%;
+    }
+    .usertransroww #Utransdata{
+        padding-right: 13%;
+    }
+}

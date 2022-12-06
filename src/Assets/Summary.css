@@ -1,0 +1,74 @@
+.Summary{
+    background-color: white;
+    margin: 2%;
+    border-radius: 5px;
+    height: 20%;
+}
+.Summary h2{
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #0D0C33;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#sumcont{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Summary .col-2{
+    background-color: #0D0C33;
+    width: 15%;
+    margin: 8px;
+    border-radius: 10px;
+    height: inherit;
+}
+#sumdata{
+    display: grid;
+    width: 100%;
+}
+#sumimg{
+    text-align: right;
+    padding: 7px;
+}
+#sumdata img{
+    width: 15%;
+}
+#suminfo{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+#id{
+    color: #00BDFF;
+    font-size: 14px;
+    font-family: inter;
+    font-weight: bold;
+    margin: 0%;
+}
+#figure{
+    color: white;
+    font-size: 18px;
+    font-family: inter;
+    font-weight: bold;
+    margin: 0%;
+}
+#increase{
+    font-family: inter;
+    font-size: 12px;
+    color: white;
+    margin: 0%;
+    padding-bottom: 10px;
+}

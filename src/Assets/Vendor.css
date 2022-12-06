@@ -1,0 +1,170 @@
+.Vendor{
+    display: flex;
+    margin: 2%;
+}
+.Vendor .col-9{
+    background-color: white;
+    border-radius: 5px;
+    width: 63%;
+}
+.Vendor h2{
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #0D0C33;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    margin: 0;
+}
+#flexspace{
+    width: 2%;
+}
+.Vendor .col-3{
+    background-color: white;
+    border-radius: 5px;
+    width: 35%;
+    padding: 0px;
+}
+.Vendor .col-9 .row{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+#title{
+    font-weight: bolder;
+    color: #000000;
+    font-size: 15px;
+    font-family: inter;
+    width: 100%;
+    margin-right: 40px;
+    padding-bottom: 15px;
+}
+#details{
+    color: #000000;
+    font-size: 13px;
+    font-family: inter;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.col-3 .col-6{
+    display: grid;
+}
+#act{
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    font-size: 15px;
+    font-family: inter;
+    margin-right: 40px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+#actbtn{
+    display: flex;
+    border-bottom: none;
+}
+.Vendor #appbtn{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: fit-content;
+    padding: 3px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #00FF38;
+}
+.Vendor #denbtn{
+    background-color: #C33636;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: fit-content;
+    padding: 3px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Vendor #Utranstitle{
+    padding: 0px;
+    width: 25%;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 0px;
+    font-weight: bold;
+    text-align: left;
+}
+.Vendor #innerbtnn{
+    padding: 0px;
+    width: 25%;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.Vendor #Utransdata{
+    color: black;
+    padding-right: 0%;
+    width: 25%;
+    padding-left: 0px;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    text-align: left;
+}
+#actbtn{
+    display: flex;
+    padding-right: 0%;
+    width: 25%;
+    padding-left: 0px;
+}
+.Vendor #data .row{
+    height: 50%;
+    display: flex;
+    margin: 0;
+}
+.Vendor table thead tr th:last-child {
+    padding-left: 30px;
+}
+.Vendor #vbtn{
+    margin-left: 0px;
+}
+.Vendor #data .row .col-6{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+.Vendor #col61, #col63{
+    border-right: 1px solid black;
+}
+.Vendor #col61, #col62{
+    border-bottom: 1px solid black;
+}
+.Vendor #data .row .col-6 #dataid{
+    color: #0D0C33;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.Vendor #data .row .col-6 #datanum{
+    color: #00BDFF;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Vendor #Utranstitle {
+        padding-right: 15%;
+    }
+    .Vendor #Utransdata {
+        padding-right: 16.7%;
+    }
+}

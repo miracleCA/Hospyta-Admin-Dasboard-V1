@@ -1,0 +1,72 @@
+.Transactions{
+    display: flex;
+    margin: 2%;
+}
+.Transactions .col-12{
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+.Transactions h2{
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #0D0C33;
+    margin: 0;
+}
+#flexspace{
+    width: 2%;
+}
+.Transactions .row{
+    display: flex;
+}
+.usertrans{
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.usertrans .row{
+    display: flex;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+#translastrow{
+    border: none;
+}
+.col-3 .col-4{
+    width: 33%;
+    font-family: inter;
+    font-weight: bold;
+    display: grid;
+}
+.col-3 .row{
+    margin: 10px;
+}
+.col-3 .col-4 p{
+    color: #3C3C3C;
+}    
+.col-3 .col-4 span{
+    padding-top: 20px;
+}
+.Transactions table thead tr th:last-child{
+    padding-left: 0px;
+}
+@media screen and (min-width: 1044px){
+    .Transactions .usertrans .row {
+        margin-left: 0%; 
+        margin-right: 0%; 
+    }
+}

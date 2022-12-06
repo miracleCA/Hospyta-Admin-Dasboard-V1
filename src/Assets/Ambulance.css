@@ -1,0 +1,225 @@
+.Ambulance{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #E8F9FF;
+}
+.Ambulancemain{
+    width: 81%;
+}
+.Ambulancemain #froww .row {
+    display: flex;
+    margin: 2%;
+}
+.Ambulancemain #mcont{
+    width: unset;
+}
+.Ambulancemain #nav3{
+    display: flex;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-7{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-7 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+#pagetitle{
+    color: #606C80;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+}
+.Ambulance #datatable .row{
+    margin: 0;
+}
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+    #pagetitle{
+        font-size: 17px;
+    }
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+#topnav{
+    display: flex;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#usertitle{
+    color: #294566;
+}
+#userrole{
+    color: #00BC29;
+}
+.Ambulancemain #topnav .col-5 {
+   background-color: transparent;
+}
+.Ambulancemain .row .col-2{
+    background-color: #0D0C33;
+    border-radius: 10px;
+    margin: 0.5%;
+    padding: 1%;
+    justify-content: center;
+}
+.Ambulance .col-3{
+    background-color: #0D0C33;
+    border-radius: 10px;
+    margin: 0.5%;
+    padding: 1%;
+    justify-content: center;
+    height: 50px;
+}
+.Ambulance #cont1 #nav3 {
+    height: 7%;
+}
+.Ambulance .row{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#Ambnavrow{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#lastcol{
+    background-color: #0D0C33;
+    border-radius: 10px;
+    margin: 0.5%;
+    padding: 1%;
+    justify-content: center;
+    height: 50px;
+}
+.Ambulancemain .row .col-2{
+    display: block;
+    width: 15%;
+}
+.Ambulancemain .row .col-3{
+    display: flex;
+    width: 30%;
+}
+.Ambulancemain .row .col-5{
+    display: flex;
+    width: 40%; 
+}
+.col-3 #navspan{
+    padding: 0%;
+}
+#navspan{
+    display: grid;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+#nvspdata{
+    padding: 3%;
+    font-size: 13px;
+}
+#nvspdata2{
+    padding: 3%;
+    font-size: 13px;
+}
+.Ambulancemain .col-6{
+    width: 50%;
+}
+.Ambulance #searchbar {
+    float: left;
+    margin-top: 0%;
+    padding-bottom: 1%;
+}
+@media screen and (max-width: 1025px) {
+    #nvspdata{
+        font-size: 10px;
+    }
+}
+#Ambnavrow{
+    background-color: #0D0C33;
+    display: flex;
+    border-radius: 10px;
+}
+#Ambnavrow .col-6{
+    margin: auto;
+}
+#Ambnav{
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+#datatable{
+    background-color: white;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+#datatable .row{
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 1%;
+}
+#headrow{
+    font-size: 13.5px;
+    width: 15%;
+    font-weight: bold;
+}
+#datatable span{
+    text-align: start;
+    width: 15%;
+    font-size: 13.5px;
+}
+.lastambrow{
+    border-bottom: 0px;
+    margin: 0;
+    padding: 1%;
+    display: flex;
+}
+#lastspn{
+    text-align: start;
+    width: 15%;
+    font-size: 13.5px;
+}
+#space{
+    height: 10%;
+    background-color: transparent;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Ambulancemain{
+        width: 80%;
+    }
+}

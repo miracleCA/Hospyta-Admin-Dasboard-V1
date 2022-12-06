@@ -1,0 +1,10 @@
+.Mainsec{
+    background-color: #E8F9FF;
+    width: 81%;
+    height: max-content;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Mainsec{
+        width: 80%;
+    }
+}

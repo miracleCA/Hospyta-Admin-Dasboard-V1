@@ -1,0 +1,92 @@
+.Login{
+    height: fit-content;
+}
+#lognav{
+    width: 100%;
+}
+#lognav{
+    height: 15%;
+}
+#lognav img{
+    width: 20%;
+}
+.logbody{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: #DFF4FF;
+}
+.logbody .col-5{
+    width: 40%;
+}
+.logbody .col-7{
+    width: 60%;
+    margin: auto;
+}
+.logbody img{
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+.logbody form{
+    display: grid;
+    width: 50%;
+    margin: auto;
+}
+.box{
+    width: 50%;
+}
+.logbody h2{
+    text-align: center;
+    color: #0D0C33;
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 30px;
+}
+.logbody input{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 3%;
+    color: black;
+    font-size: 15px;
+}
+#form-field{
+    padding-bottom: 3%;
+    display: grid;
+}
+.logbody button{
+   background-color: #0D0C33;
+   color: white;
+   font-weight: bold;
+   font-family: poppins;
+   padding: 3%;
+   border: none;
+   font-size: 20px;
+}
+.logbody button:hover{
+    background-color: white;
+    color: #0D0C33;
+    border: 2px solid #0D0C33;
+ }
+ .logfoot{
+    background-color: #0D0C33;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+ }
+ #loftimg{
+    width: 50%;
+    margin: auto;
+ }
+ .logfoot img{
+    height: 70%;
+    padding-left: 8%;
+ }
+ #lofftcop{
+    padding: auto;
+    width: 50%;
+    margin: auto;
+    text-align: right;
+ }

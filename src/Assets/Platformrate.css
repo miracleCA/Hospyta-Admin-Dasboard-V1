@@ -1,0 +1,100 @@
+.Platformrate{
+    display: flex;
+    width: 100%;
+}
+.Platmain{
+    width: 81%;
+    background-color: #E8F9FF;
+}
+.Platbody{
+    margin: 4%;
+    height: 600px;
+}
+.Platbody form{
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    color: #0D0C33;
+    font-weight: bold;
+    font-family: Gotham;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+.Platmain #pagetitle{
+    color: #0D0C33;
+}
+#formsec1{
+    display: flex;
+    padding-bottom: 1%;
+}
+#formsec2{
+    display: flex;
+}
+.Platbody label{
+    padding-right: 2%;
+}
+#row1, #row2{
+    border-bottom: 1px solid black;
+}
+#row1, #row2, #row3{
+    height: 17%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    margin-top: 0;
+}
+form #perc, #fixed{
+    font-weight: 500;
+    color: #0D0C33;
+}
+input[type=text] {
+    margin-right: 2%;
+}
+input[type=radio] {
+    margin-right: 1%;
+}
+#row4{
+    background-color: white;
+    height: 60px;
+}
+#newrate{
+    padding-right: 10%;
+}
+#subbtn{
+    background-color: #0D0C33;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    padding: 7px;
+    border: none;
+    margin-right: 4%;
+}
+#subbtn:hover{
+    color: #0D0C33;
+    background-color: white;
+    border: 2px solid #0D0C33;
+    font-weight: bold;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Platmain{
+        width: 80%;
+    }
+    #formrsec2{
+        display: flex;
+        width: fit-content;
+    }
+    input[type=text] {
+        width: 20%;
+    }
+}

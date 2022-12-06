@@ -1,0 +1,236 @@
+.Broadcast{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #E8F9FF;
+}
+.Broadcast .Sidebar{
+    height: 900px;
+}
+.Broadcastmain{
+    width: 81%;
+    background-color: #E8F9FF;
+    height: 900px;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-12{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-12 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+.Broadcast #pagetitle{
+    color: #0D0C33;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+}
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+    #pagetitle{
+        font-size: 17px;
+    }
+}
+#topnav{
+    display: flex;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#usertitle{
+    color: #294566;
+}
+#userrole{
+    color: #00BC29;
+    padding-top: 17%;
+}
+.bod{
+    display: flex;
+    background-color: transparent;
+    margin: 2%;
+    height: 770px;
+}
+.bod .col-12{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+.bod h2{
+    padding-left: 5%;
+    font-weight: bold;
+    color: black;
+}
+#broadform{
+    display: grid;
+    height: max-content;
+    padding: 5%;
+}
+#users{
+    font-weight: 560;
+}
+#userr, #messge{
+    font-weight: bold;
+}
+#input1{
+    display: flex;
+    padding-top: 3%;
+}
+#input2{
+    display: flex;
+    padding-top: 3%;
+}
+#topic{
+    margin-left: 1%;
+    width: 45%;
+    border: 1px solid gray;
+    height: 25px;
+    background-color: #E8F9FF;
+    border-radius: 5px;
+} 
+#message{
+    width: 90%;
+    border: 1px solid gray;
+    height: 150%;
+    background-color: #E8F9FF;
+    border-radius: 5px;
+}
+#messageinput{
+    padding-top: 20px;
+    padding-bottom: 3%;
+    display: flex;
+}
+input[type=checkbox] {
+    width: 15px;
+}
+#Users{
+    margin-left: 20px;
+}
+#lastroww{
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+}
+#lastrowww{
+    margin: 0;
+}
+#lastroww img{
+    padding: 10px;
+    vertical-align: middle;
+}
+#schetxt{
+    line-height: normal;
+    font-weight: 600;
+}
+#submitb{
+    background-color: #0D0C33;
+    color: white;
+    width: 12%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-align: center;
+}
+#submitb:hover{
+    color: #0D0C33;
+    background-color: white;
+    border: 2px solid #0D0C33;
+    font-weight: bold;
+}
+#headdataa{
+    display: flex;
+    background-color: #0D0C33;
+    height: fit-content;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+#headdtitle{
+    color: white;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #606C80;
+    font-weight: bold;
+}
+#data1{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+#data1 span{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#data11{
+    display: flex;
+    justify-content: space-evenly;
+}
+#bigdata{
+    font-size: 20px;
+    font-weight: bold;
+}
+#smalldata{
+    font-size: 13px;
+    align-self: center;
+    font-weight: 600;
+}
+#datatexts{
+    font-size: 13px;
+    text-align: center;
+}
+#listact{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Broadcastmain{
+        width: 80%;
+    }
+}

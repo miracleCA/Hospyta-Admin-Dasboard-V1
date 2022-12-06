@@ -1,0 +1,92 @@
+.Medreports{
+    display: flex;
+    width: 100%;
+}
+.Medreportsmain{
+    width: 81%;
+    background-color: #E8F9FF;
+}
+.Medreportsmain #pagetitle{
+    color: #0D0C33;
+}
+.Medreportbody{
+    background-color: white;
+    margin: 4%;
+    border-radius: 10px;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+.Medreportbody .row{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#dlastroww{
+    border-bottom: none;
+}
+.Medreportbody #title1 {
+    padding-right: 10%;
+    font-weight: bold;
+}
+#title2{
+    padding-right: 53%; 
+    font-weight: bold;
+}
+.Medreportbody #Action{
+    font-weight: bold;
+}
+#username{
+    padding-right: 10%;
+}
+#Reason{
+    padding-right: 52%; 
+}
+#task{
+    justify-content: space-between;
+    display: flex;
+}
+#approve{
+    background-color: #228D3A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 4%;
+    padding: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#deny{
+    background-color: #961A26;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Medreportsmain{
+        width: 80%;
+    }
+    #title2{
+        padding-right: 45%; 
+    }
+    #Reason{
+        padding-right: 43%; 
+    }
+}

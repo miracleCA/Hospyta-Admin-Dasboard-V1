@@ -1,0 +1,210 @@
+.Vendorsales{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #E8F9FF;
+}
+.Vendorsalesmain{
+    width: 81%;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-7{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-7 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+#pagetitle{
+    color: #606C80;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+}
+.Vendorsalesmain .col-3{
+    border-right: 0px;
+    padding: 0px;
+    margin: 0;
+}
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+    #pagetitle{
+        font-size: 17px;
+    }
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#topnav{
+    display: flex;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#usertitle{
+    color: #294566;
+}
+#userrole{
+    color: #00BC29;
+}
+.Vendorsalesmain .first {
+    display: flex;
+    height: max-content;
+}
+#rowfolder{
+    background-color: transparent;
+    width: 100%;
+}
+.nav1{
+    display: flex;
+    margin-bottom: 2%;
+    color: white;
+}
+.nav1 .col-2{
+    background-color: #0D0C33;
+    display: grid;
+    width: 22%;
+    height: 70px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 4%;
+    padding-top: 3%;
+}
+.nav1 .col-6{
+    background-color: #0D0C33;
+    display: flex;
+    width: 50%;
+    height: 70px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 3%;
+    margin: auto;
+    justify-content: center;
+}
+#amoount{
+    color: #00BDFF;
+}
+#navv{
+    display: grid;
+    margin-right: 5%;
+}
+#navvv{
+    display: grid;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#nav2 {
+    height: 30%;
+    background-color: #0D0C33;
+    border-radius: 10px;
+    color: white;
+}
+.Vendorsales #flexdiv{
+    margin: 2%;
+    display: grid;
+    margin-left: 0%;
+    width: 0px;
+}
+.products{
+    background-color: white;
+    width: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    height: fit-content;
+    margin-bottom: 10%;
+}
+.products h3{
+    margin-bottom: 1.5%;
+}
+.products .row{
+    width: -webkit-fill-available;
+    margin: auto;
+    padding: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.products .row span{
+    padding: 2%;
+    font-size: 15px;
+}
+#prod{
+    text-align: left;
+}
+.products button{
+    background-color: #0D0C33;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: inter;
+    margin-top: 3%;
+}
+.products button:hover{
+    color: #0D0C33;
+    background-color: white;
+    border: 2px solid #0D0C33;
+}
+#Vproddet{
+    color: #606C80;
+}
+.Vendorsales .col-3 {
+   background-color: unset;
+   border-radius: unset;
+   margin: unset;
+   padding: unset;
+   justify-content: unset;
+   height: unset;
+   width: 0px;
+   margin: 0;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Vendorsalesmain{
+        width: 80%;
+    }
+    .Vendorsalesmain b{
+        font-size: 12px;
+    }
+}

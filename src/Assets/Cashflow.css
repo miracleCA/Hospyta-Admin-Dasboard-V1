@@ -1,0 +1,208 @@
+.Cashflow{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #E8F9FF;
+}
+.cashmain{
+    width: 81%;
+}
+.Cashflow .cashtrans{
+    background-color: transparent;
+}
+.Cashflow .cashtrans .roww {
+    height: 60%;
+    display: flex;
+    background-color: #0D0C33;
+    border-radius: 10px;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-7{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-7 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+.Cashflow #pagetitle{
+    color: #0D0C33;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+}
+.cashmain .col-3{
+    border-right: 0px;
+}
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+    #pagetitle{
+        font-size: 17px;
+    }
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#topnav{
+    display: flex;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#usertitle{
+    color: #294566;
+}
+#userrole{
+    color: #00BC29;
+}
+.cashmain .first{
+    display: flex;
+    height: 15%;
+}
+.cashtrans{
+    margin: 2%;
+    background-color: #0D0C33;
+    font-family: inter;
+    width: 70%;
+    border-radius: 10px;
+}
+.cashtrans .row{
+    height: 100%;
+    display: flex;
+}
+.cashtrans .roww{
+    color: white;
+}
+.Cashflow .row{
+    margin: auto;
+}
+.Cashflow table thead tr th:last-child{
+    padding-left: 0px;
+}
+.cashtrans .col-4{
+    width: 100%;
+    margin: auto;
+}
+.cashtrans .col-4 span{
+   text-align: center;
+   padding: 5%;
+}
+#swapnav{
+    cursor: pointer;
+}
+.cashtrans .col-6{
+    width: 100%;
+}
+.usertrans{
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.usertrans .row{
+    display: flex;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+@media screen and (max-width: 1200px){
+    .usertrans .row{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+@media screen and (min-width: 1044px){
+    .usertrans .row{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+#translastrow{
+    border: none;
+}
+#flexdiv{
+    width: 30%;
+    display: grid;
+    margin: 2%;
+    margin-left: 0;
+    height: max-content;
+}
+#flexdata{
+    background-color: #0D0C33;
+    height: max-content;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    text-align: center;
+    padding: 7%;
+}
+#flexdata h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding: 3%;
+}
+#flexdata span{
+    font-size: 30px;
+    color: #00BDFF;
+    font-weight: bold;
+    padding: 3%;
+}
+.cashmain .col-3{
+    margin: 0;
+    padding: 0px;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .cashmain{
+        width: 80%;
+    }
+    #usertrans .row{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #swaprow #transtitle{
+        padding-right: 6.4%;
+    }
+    #swaprow #transdata{
+        padding-right: 6.4%;
+    }
+    #Utransdata {
+        padding-right: 13.5%;
+    }
+}

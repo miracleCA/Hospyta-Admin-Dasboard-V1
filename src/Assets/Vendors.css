@@ -1,0 +1,330 @@
+.Vendors{
+    display: flex;
+    background-color: #E8F9FF;
+    width: 100%;
+}
+.Vendormain{
+    width: 81%;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-7{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-7 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+#pagetitle{
+    color: #606C80;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+}
+.Vendors .Topnav a:enabled{
+    color: #0D0C33;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#topnav{
+    display: flex;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#userrole{
+    color: #00BC29;
+}
+.Vendormain .first {
+    display: flex;
+    height: max-content;
+}
+.Vendors .col-10{
+    background-color: white;
+    border-radius: 5px;
+    width: 88%;
+}
+.usertrans{
+    margin-top: 2%;
+}
+.Vendors .col-10 {
+    background-color: transparent;
+}
+.Vendors h2{
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #0D0C33;
+    padding-left: 2.5%;
+    padding-top: 1%;
+}
+#flexspace{
+    width: 2%;
+}
+.Vendors .col-2{
+    border-radius: 5px;
+    width: 35%;
+    padding: 0%;
+    justify-content:unset;
+}
+#nav3{
+    background-color: #0D0C33;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+.Vendors #nav3 #stretch{
+    background-color: #0D0C33;
+    border-radius: 0px;
+    width: unset;
+    padding: 0px;
+    justify-content: unset;
+}
+.vbtn{
+    margin-left: 30px;
+}
+.Vendors #cont1 #nav3{
+    margin-bottom: 2%;
+}
+.Vendors .row{
+    display: flex;
+}
+.row .col-2{
+   padding-bottom: 15px;
+   width: 100%;
+}
+.Vendors #flexdiv{
+    background: transparent;
+    width: 18%;
+}
+#usertrans2 .row {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.col-2 .col-6{
+    display: grid;
+}
+#appbtn{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: fit-content;
+    background-color: #C33636;
+    padding: 3px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#denbtn{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: fit-content;
+    background-color: #00FF38;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Vendors #Vappbtn{
+    background-color: #00FF38;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: fit-content;
+    padding: 3px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#Vinfo1{
+    background-color: white;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: black;
+    font-family: inter;
+}
+#Vinfo1 .row{
+    border-bottom: 1px solid black;
+}
+.Vendors #nav3 .col-2{
+    background-color: unset;
+}.Vendors #searchbar {
+    margin-top: 1.3%;
+}
+#Vtranstitle{
+    padding-right: 0px;
+    font-weight: bold;
+    width: 14.3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+#Vtranstitlec{
+    padding-right: 0px;
+    font-weight: bold;
+    width: 14.3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+#Vtransdata{
+    padding-right: 0px;
+    width: 14.3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 11px;
+}
+table thead tr th:last-child {
+    padding-left: 30px;
+}
+#Vtransdatac{
+    padding-right: 0px;
+    width: 14.3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 11px;
+    text-align: center;
+}
+#Vinfo1 #Vtranslastrow{
+    border-bottom: none;
+}
+#mcont{
+    margin: 2%;
+    display: flex;
+    width: 100%;
+}
+#Vinfo2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+#Vinfo2 .row{
+    border-bottom: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Vinfo2 #Vtranstitle, #Vinfo2 #Vtransdata{
+    padding-right: 18%;
+}
+#Vinfo2 #Vtranslastrow{
+    border-bottom: none;
+}
+#cont1{
+    width: 80%;
+}
+#cont2{
+    width: 20%;
+    margin-left: 2%;
+}
+#spancv{
+    background-color: #0D0C33;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+}
+#spancv #title{
+    color: white;
+    font-size: 20px;
+}
+#spancv #figure{
+    color: #00BC29;
+    font-size: 30px;
+}
+#dlast{
+    display: flex;
+    width: 100%;
+}
+#dlast table thead tr th:last-child {
+    padding-left: 38px;
+}
+#dlast #nav3{
+    margin-bottom: 2%;
+}
+#Vinfo3{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#Vinfo3 .row{
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#Vinfo3 #Vtranslastrow{
+    border-bottom: none;
+}
+#Vinfo3 #Vtranstitle, #Vinfo3 #Vtransdata{
+    padding-right: 12.3%;
+}
+.Vendors .col-2{
+    border-right: unset;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Vendors #pagetitle{
+        font-size: 14px;
+    }
+    #Vtranstitle{
+        padding-right: 0px;
+    }
+    #Vtransdata{
+        padding-right: 0px;
+    }
+    #Vinfo2 #Vtranstitle, #Vinfo2 #Vtransdata{
+        padding-right: 0px;
+    }
+    #spancv #title{
+        font-size: 18px;
+    }
+    #Vinfo3 #Vtranstitle, #Vinfo3 #Vtransdata{
+        padding-right: 9.7%;
+    }
+}

@@ -1,0 +1,129 @@
+.Consultations{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #E8F9FF;
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+.Consultations table thead tr th:last-child{
+    padding-left: 0px;
+}
+.Consultmain{
+    width: 81%;
+}
+.Consultmain #pagetitle{
+    color: #0D0C33;
+}
+.consultbody{
+    margin: 2%;
+}
+.consultbody .col-3{
+    border-right: none;
+}
+.consultbody #bodynav{
+    background-color: #0D0C33;
+    color: white;
+    height: 60px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+.consultbody #bodynav .col-5{
+    display: flex;
+    width: 45%;
+}
+.consultbody #bodynav .col-7{
+    width: 55%;
+}
+.consultbody #searchbar{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Consultations #searchbar{
+    margin-right: 2%;
+}
+#inpsearch{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    float: left;
+    margin-left: 33%;
+}
+#inpmonth{
+    height: 30px;
+    background-color: #7b7a99;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    float: right;
+    margin-right: 5%;
+}
+#bodynav #menutitle {
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.consultbody #body2{
+    display: flex;
+    margin-top: 2%;
+}
+#body2 .col-10{
+    width: 82%;
+}
+#body2 .col-2{
+    padding: 0px;
+    padding-left: 2%;
+    width: 18%;
+}
+#consrow{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table td, tr{
+    border-bottom: 1px solid black;
+}
+table tr{
+    height: 40px;
+    text-align: left;
+}
+table tbody tr:last-child{
+    border-bottom: hidden;
+}
+.consultbody #flexdiv{
+    margin: 0;
+}
+#consrow .row{
+    display: flex;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Consultmain{
+        width: 80%;
+    }
+    #bodynav #menutitle {
+        padding: 10px;
+        font-size: 14px;
+    }
+    #inpsearch {
+        margin-left: 12%;
+    }
+}

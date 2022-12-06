@@ -1,0 +1,175 @@
+.Userslist{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #E8F9FF;
+}
+.Usersmain{
+    width: 81%;
+}
+.Usersmain .col-10{
+    width: 80%;
+}
+.Usersmain .col-2{
+    width: 20%;
+}
+.Usersmain #flexdiv{
+    width: 20%;
+}
+.Usersmain a{
+    text-decoration: none;
+}
+.Topnav{
+    height: 80px;
+    background-color: #E8E8E9;
+}
+#topnav{
+    height: inherit;
+}
+#topnav .col-7{
+    width: 100%;
+    display: flex;
+}
+#topnav .col-7 .col-12{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+}
+#power button{
+    cursor: pointer;
+}
+#pagetitle{
+    color: #606C80;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.Usersmain .col-3{
+    border-right: 0px;
+}
+.Usersmain .cashtrans{
+    background-color: transparent;
+}
+.Usersmain .cashtrans .roww {
+    height: 60%;
+    display: flex;
+    background-color: #0D0C33;
+    border-radius: 10px;
+}
+.Usersmain .col-3{
+    margin: 0;
+    padding: 0px;
+}
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+    #pagetitle{
+        font-size: 17px;
+    }
+}
+#topnav .col-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    padding-right: 25px;
+}
+#profile{
+    display: flex;
+    padding-right: 20px;
+}
+#topnav{
+    display: flex;
+}
+#prosrch{
+    margin-right: 50px;
+}
+#proicon{
+    display: flex;
+}
+#proimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+#searchbar{
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid #98A2B2;
+    padding-top: 1%;
+    height: 75%;
+    margin-top: 2%;
+    color: white;
+    float: right;
+    margin-right: 7%;
+    font-size: 15px;
+    font-family: inter;
+}
+#searchbar::placeholder{
+    font-size: 14px;
+    font-family: inter;
+    text-transform: initial;
+    padding-left: 3%;
+    color: #b5bac2;
+}
+#searchbar::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    }
+    
+#searchbar::-moz-placeholder  { 
+    font-family: FontAwesome;
+}
+    
+#searchbar:-ms-input-placeholder  { 
+    font-family: FontAwesome;
+}
+#userid{
+    display: grid;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#usertitle{
+    color: #294566;
+}
+#swaprow table thead tr th:last-child{
+    padding-left: 0px;
+}
+tbody tr{
+    font-size: 15px;
+}
+#userrole{
+    color: #00BC29;
+}
+.Usersmain .first{
+    display: flex;
+    height: 15%;
+}
+.Userslist #pagetitle:active{
+    color: #0D0C33;
+}
+.Usersmain .usermove{
+    text-align: left;
+}
+.Usersmain .usermovee{
+    text-align: center;
+}
+#usertrans .row{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Usersmain{
+        width: 80%;
+    }
+    #usertrans .row{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    tbody tr{
+        font-size: 11px;
+    }
+}
